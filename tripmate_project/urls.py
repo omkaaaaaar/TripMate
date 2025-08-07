@@ -22,5 +22,6 @@ from planner import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),         # homepage
-    path('plan/', views.plan, name='plan'),    # trip plan (coming next)
+    path('plan/', views.trip_plan, name='plan'),    # trip plan (coming next)
 ]
+
